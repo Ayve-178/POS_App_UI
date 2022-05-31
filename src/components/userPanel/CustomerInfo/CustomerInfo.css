@@ -1,0 +1,203 @@
+/* Customer */
+
+.customer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(215, 215, 243, 0.555);
+  padding: 15px;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.customerName {
+  color: rgb(87, 87, 236);
+  font-size: 18px;
+}
+
+.customerIcon {
+  color: rgb(87, 87, 236);
+  font-size: 20px;
+}
+
+.addCustomer {
+  cursor: pointer;
+}
+
+/* Purchase Info */
+
+.itemList {
+  width: 100%;
+  margin-left: 5px;
+  margin-top: 10px;
+  height: 250px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tableData {
+  text-align: left;
+  padding: 8px;
+  font-size: 16px;
+  border-bottom: 1px solid rgb(187, 186, 186);
+  border-top: 1px solid rgb(187, 186, 186);
+}
+
+.editIcon {
+  border-right: 1px solid rgb(187, 186, 186);
+  border-bottom: none;
+  border-top: none;
+  text-align: center;
+  cursor: pointer;
+  padding-left: 1px !important;
+  padding-right: 2px !important;
+}
+
+.btnMinus,
+.btnPlus {
+  cursor: pointer;
+}
+
+.deleteIcon {
+  border-left: 1px solid rgb(187, 186, 186);
+  border-bottom: none;
+  border-top: none;
+  text-align: center;
+  cursor: pointer;
+  padding-left: 2px !important;
+  padding-right: 1px !important;
+}
+
+.delIcon {
+  color: rgb(230, 81, 55);
+}
+
+.billingInfo {
+  margin-top: 25px;
+  width: 40%;
+  margin-left: 60%;
+}
+
+.line {
+  border: none;
+  border-top: 0.5px solid rgb(187, 186, 186);
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+div,
+hr {
+  line-height: 1;
+}
+
+.billingItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px;
+}
+
+.billingDesc {
+  font-size: 14px;
+}
+
+.discount {
+  color: rgb(87, 87, 236);
+  font-weight: 500;
+}
+
+.billingAmount {
+  color: rgb(22, 22, 22);
+}
+
+.totalBill {
+  color: rgb(87, 87, 236);
+  background-color: rgba(215, 215, 243, 0.555);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+
+  width: 100%;
+
+  padding: 6px;
+  padding-top: 20px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.productsCount {
+  color: rgb(87, 87, 236);
+  font-size: 12px;
+  width: 60%;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.total p {
+  color: rgb(87, 87, 236);
+  font-weight: 500;
+}
+
+/* Bottom Menu */
+
+.bottomMenu {
+  width: 100%;
+  margin-left: 5px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottomBtn {
+  background-color: rgba(215, 215, 243, 0.555);
+  color: rgb(87, 87, 236);
+  border: none;
+  margin: 5px;
+  margin-top: 0px;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+.cancelBtn {
+  background-color: rgba(248, 168, 156, 0.473);
+  color: rgb(253, 92, 63);
+}
+
+.bottomIcon {
+  color: rgb(87, 87, 236);
+}
+
+.bottomCancelIcon {
+  color: rgb(253, 92, 63);
+}
+
+@media (max-width: 368px) {
+  .bottomBtn {
+    padding: 8px;
+    font-size: 10px;
+  }
+
+  .tableData {
+    font-size: 10px;
+  }
+
+  .billingDesc {
+    font-size: 12px;
+  }
+}

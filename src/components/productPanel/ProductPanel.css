@@ -1,0 +1,128 @@
+.searchBar {
+  width: 100%;
+}
+
+.searchField {
+  width: 99.5%;
+  height: 40px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  background-color: rgb(241, 240, 240);
+  font-size: 18px;
+}
+
+.productItems {
+  padding: 20px;
+}
+
+.categories {
+  padding-bottom: 10px;
+}
+
+.catBtn {
+  font-size: 15px;
+  padding: 8px;
+  margin: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.dots {
+  font-size: 26px;
+  margin-left: 7px;
+  cursor: pointer;
+}
+
+.allCat {
+  display: flex;
+  justify-content: end;
+  height: 625px;
+  margin-top: 0px;
+}
+
+.cats {
+  width: 90%;
+  background-color: white;
+  padding: 20px;
+  margin-left: 10px;
+}
+
+.catTitle {
+  text-align: center;
+  font-size: 25px;
+  color: #222;
+  margin-bottom: 40px;
+}
+
+.closeIcon {
+  font-size: 25px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 485px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.product {
+  border: 1px solid rgb(179, 178, 178);
+  margin: 5px;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+.productImage {
+  width: 100px;
+  height: 120px;
+  margin-bottom: 8px;
+}
+
+.productPrice,
+.productName {
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+hr,
+p {
+  line-height: 0;
+}
+
+.line {
+  width: 100%;
+  border: none;
+  border-top: 0.3px solid rgb(219, 219, 219);
+}
+
+@media (max-width: 368px) {
+  .searchField {
+    height: 30px;
+    font-size: 13px;
+  }
+
+  .catBtn {
+    font-size: 12px;
+    padding: 4px;
+    margin-right: 5px;
+  }
+
+  .dots {
+    font-size: 16px;
+    margin-left: 5px;
+  }
+
+  .productImage {
+    width: 80px;
+    height: 100px;
+  }
+}

@@ -1,0 +1,112 @@
+.side {
+  display: flex;
+}
+
+.close {
+  margin-left: 15px;
+}
+
+.clsIcon {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.sideMenu {
+  width: 55%;
+  height: 600px;
+  margin-top: 0px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(246, 248, 250);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.sideHeader {
+  width: 85%;
+  height: 120px;
+  padding: 20px;
+  background-color: rgba(204, 202, 202, 0.479);
+  margin-bottom: 10px;
+}
+
+.sideTitle {
+  color: #222;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+
+.locTitle {
+  font-size: 13px;
+}
+
+.locDesc {
+  font-size: 16px;
+}
+
+.sideMenuOpt {
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.header {
+  width: 100%;
+  margin-left: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  background-color: rgba(215, 215, 243, 0.555);
+  color: rgb(87, 87, 236);
+  border: none;
+  margin: 5px;
+  margin-top: 0px;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.menuBar {
+  font-size: 30px;
+  margin-right: 8px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.headIcon {
+  color: rgb(87, 87, 236);
+}
+
+@media (max-width: 368px) {
+  .btn {
+    padding: 8px;
+    font-size: 10px;
+  }
+
+  .menuBar {
+    font-size: 20px;
+  }
+
+  .sideTitle {
+    font-size: 15px;
+  }
+
+  .sideMenuOpt {
+    font-size: 15px;
+  }
+
+  .sideMenu {
+    width: 90%;
+  }
+
+  .locDesc {
+    font-size: 16px;
+  }
+}
